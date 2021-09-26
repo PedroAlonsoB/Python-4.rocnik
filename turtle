@@ -1,0 +1,54 @@
+import turtle
+from random import randrange, randint
+
+t = turtle.Turtle()
+
+hocco = randrange(5, 200)
+
+def stvorec ():
+
+    for i in range(4):
+        t.fd (hocco)
+        t.rt(90)
+
+def trojholnik ():
+
+  for i in range(3):
+      t.fd (hocco)
+      t.rt(120)
+
+def random ():
+ t.penup()
+ t.goto(randint(-400,0),randint(0,400))
+ t.rt(randrange(0, 360))
+ t.pendown()
+
+
+
+random()
+stvorec()
+random()
+trojholnik()
+random()
+stvorec()
+random()
+trojholnik()
+random()
+stvorec()
+random()
+trojholnik()
+random()
+stvorec()
+random()
+trojholnik()
+random()
+stvorec()
+random()
+trojholnik()
+random()
+stvorec()
+random()
+trojholnik()
+
+
+turtle.exitonclick()
