@@ -1,3 +1,4 @@
+# Peter Kováčik
 import turtle
 from random import randrange, randint
 
