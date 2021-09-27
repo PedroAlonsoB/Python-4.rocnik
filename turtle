@@ -24,31 +24,13 @@ def random ():
  t.pendown()
 
 
-
-random()
-stvorec()
-random()
-trojholnik()
-random()
-stvorec()
-random()
-trojholnik()
-random()
-stvorec()
-random()
-trojholnik()
-random()
-stvorec()
-random()
-trojholnik()
-random()
-stvorec()
-random()
-trojholnik()
-random()
-stvorec()
-random()
-trojholnik()
-
+for i in range(1000):
+    x = randrange(0, 300)
+    y = randrange(0, 300)
+    random()
+    if x < 150:
+        stvorec()
+    else:
+        trojholnik()
 
 turtle.exitonclick()
